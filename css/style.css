@@ -1,0 +1,218 @@
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background-color: #F5C417 ;
+  }
+  .img{
+      overflow: hidden;
+      height: 2vh;
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+
+  }
+  .navbar a {
+    padding: 18px 0;
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  .navbar li:hover,
+a:hover {
+  background-color: #42536C;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #42536C;
+  }
+  .navbar li ul li a {
+    border-left: 1px solid #42536C;
+    border-right: 1px solid #42536C;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #42536C;
+  }
+  .navbar li ul li a:hover {
+    background-color: #42536C;
+  }
+
+  .conteneur{
+    width: 100%;
+     top: 99px;
+ }
+ .d2{
+     width: 100%;
+     height: 90vh;
+     background-color: #EDEDED;
+     background-size: cover;
+     background-repeat: no-repeat;
+ 
+     animation: fondu 15s ease-in-out infinite both;
+ }
+ .d2:hover{
+     animation-play-state: paused;
+ }
+ @keyframes fondu{
+     0%{background-image: url("../image/5c92b7202a000052024df20a.jpeg");}
+     20%{background-image: url("../image/5d4676174d3109b51ce958d5ef235169\ \(1\).jpg");}
+     60%{background-image: url("../image/8d7e33cb09fff7a29b2a2b01e59d567a.jpg");}
+     80%{background-image: url("../image/Cosmétique-bio-bs-naturel-A-la-Une.jpg");}
+     100%{background-image: url("../image/maquillage\ -bio-cosmetique-bio-aromatic-provence\ \(1\).jpg");}
+ }
+h6{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.work{
+    height: 10vh;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+}
+.num{
+    display: flex;
+    width: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+hr{
+    width: 8%;
+    height: 0.2vh;
+    background-color: black;
+}
+.number2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+}
+.number3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    
+}
+.image:hover{
+  padding: 10px;
+}
+
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background: #F5C417 ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.btn1:hover{
+    letter-spacing: 10px;
+}
+
+
+h1{
+    text-align: center;
+  }
+  .form-style {
+    margin:10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+  }
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: #F5C417;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+  }
+  .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background: #F5C417;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+  }
+  .form-style .field-textarea{
+    height: 100px;
+  }
+  .form-style input[type=text], 
+  .form-style input[type=email],
+  textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+  }
+  .form-style .long{
+    width: 100%;
+  }
+  .form-style input[type=text]:focus, 
+  .form-style input[type=email]:focus,
+  .form-style textarea:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+  }
+  .error{
+    color: #D8000C;
+    background-color: #FFBABA;
+  }

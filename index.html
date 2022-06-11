@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div id="wrap">
+            <ul class="navbar">
+              <li class="img"><img src="./image/logo.png" width="100%" height="50vw" alt=""></li>
+              <li>
+                <a href="#">Accueil</a>
+              </li>
+              <li>
+                <a href="#conteneur">Categories</a>
+                <ul>
+                  <li><a href="#">Vetements</a></li>
+                  <li><a href="#">Accéssoires</a></li>
+                  <li><a href="#">Produits de beaute</a></li>
+                  <li><a href="#">Objets de décoration</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#form">Formulaire d'inscription</a>
+              </li>
+              <li><img src="./image/log-removebg-preview.png" style="position: absolute; right: -500px;"
+                 height="45px" width="50px" alt=""></li>
+            </ul>
+            
+          </div>
+    </header>
+    <div class="texte">
+        <h1 style="margin-left:-900px;">Réduisez vos coûts logistiques <br> et augmenter la satisfaction de <br> vos clients</h1>
+        <h4 style="margin-left:12px;">Restici est la solution informatique de commerce électronique <br> et de place de marché développée dans le but d'aider 
+        <br> les clients à acheter et à proposer leurs produits en ligne dans toute l'Afrique francophone.
+        </h4>
+        <!-- designed by me... enjoy! -->
+        <a class="btn1" href="#">Commander</a>
+    </div>
+    <div class="conteneur">
+        <div class="d2"></div>
+    </div>
+     <section>
+         <div class="image" style="margin-top: 20px; padding:10px; ">
+             <img style="border: solid 2px black; margin: 10px; " src="./image/Schmink_73119976.jpg" height="304px" width="304px" alt="">
+             <img style="margin: 10px;" src="./image/20140526_144204_house-of-arike.jpg" height="304px" width="304px" alt="">
+             <img style="margin: 10px;" src="./image/images (1).jpg" height="304px" width="304px" alt="">
+             <img style="margin: 10px;" src="./image/images.jpg" height="304px" width="304px" alt="">
+         </div>
+     </section>
+  
+
+    
+    <h1>Formulaire d'inscription</h1>
+    <form  name="myForm" action="/file.php" onsubmit="return validateForm()" method="post" id="form">         
+        <table style="border: solid 5px black;" class="form-style">           
+            <tr>               
+                <td>                  
+                    <label>                    
+                    Votre nom <span class="required">*</span>                 
+                    </label>              
+                </td>               
+                <td>                 
+                    <input type="text" name="name" class="long"/>                  
+                    <span class="error" id="errorname"></span>               
+                </td>           
+            </tr>           
+            <tr>               
+                <td>                 
+                    <label>                     
+                        Votre adresse e-mail <span class="required">*</span>                  
+                    </label>               
+                </td>               
+                <td>                  
+                    <input type="email" name="email" class="long"/>                  
+                    <span class="error" id="erroremail"></span>              
+                </td>           
+            </tr>
+            <tr>               
+                <td>                 
+                    <label>                     
+                        Contact <span class="required">*</span>                  
+                    </label>               
+                </td>               
+                <td>                  
+                    <input type="number" style="padding: 7px 0px;" name="name" class="long"/>                  
+                    <span class="error" id="errorname"></span>              
+                </td>           
+            </tr>
+            <tr>               
+                <td>                 
+                    <label>                     
+                        Mot de passe <span class="required">*</span>                  
+                    </label>               
+                </td>               
+                <td>                  
+                    <input type="number" style="padding: 7px 0px;" name="name" class="long"/>                  
+                    <span class="error" id="errorname"></span>              
+                </td>           
+            </tr>
+            <tr>               
+                <td>                  
+                    <label>                    
+                    Ville <span class="required">*</span>                 
+                    </label>              
+                </td>               
+                <td>                 
+                    <input type="text" name="name" class="long"/>                  
+                    <span class="error" id="errorname"></span>               
+                </td>           
+            </tr> 
+
+            <tr>              
+                <td>                  
+                    <label>                    
+                        Commantaire <span class="required">*</span>                 
+                     </label>              
+                </td>               
+                <td>                  
+                    <textarea name="message" class="long field-textarea"></textarea>                 
+                    <span class="error" id="errormsg"></span>               
+                </td>           
+            </tr>            
+            <tr>              
+                <td></td>               
+                <td>                  
+                    <input type="submit" value="Envoyer">                       
+                    <input type="reset" value="Réinitialiser">                
+                </td>            
+            </tr>         
+        </table>      
+    </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
